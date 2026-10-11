@@ -55,7 +55,11 @@ Led a student engineering team through the design, construction, and testing of 
 
 ## Resume
 
+View or download my resume for more information about my education, engineering projects, technical skills, and experience.
 
+[View My Resume](Collin_Atkins_Resume.pdf)
+
+---
 
 ## Contact
 
