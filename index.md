@@ -63,6 +63,10 @@ View or download my resume for more information about my education, engineering 
 
 ## Contact
 
+collin.atkins04@gmail.com
+
+662-497-2029
+
 [LinkedIn Profile](https://www.linkedin.com/in/collin-atkins1/)
 
 [Handshake Profile](https://app.joinhandshake.com/profiles/bgucxa)
