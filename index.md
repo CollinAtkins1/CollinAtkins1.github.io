@@ -4,19 +4,19 @@
 
 **Aerospace Engineering Senior | The University of Alabama**
 
-Interested in aerodynamics, flight dynamics and controls, structural analysis, and thermal systems.
+Interests: Flight Dynamics and Control, Propulsion Systems, Aerospace Structures, Rocketry, Spacecraft Systems, Orbital Mechanics, and Aerodynamics.
 
 Expected Graduation: May 2027
-
-[LinkedIn](https://www.linkedin.com/in/collin-atkins1/)
 
 ---
 
 ## About Me
 
-I am a senior aerospace engineering student at The University of Alabama, with experience in engineering modeling, simulation, design, and analysis.
+I am a senior aerospace engineering student at The University of Alabama, planning to graduate May 2027 with a 3.73 GPA.
 
-My technical experience includes MATLAB, Simulink, OpenRocket, Python, SOLIDWORKS, XFOIL, ABAQUS, and ANSYS Fluent. I plan to pursue an M.S. in Aerospace Engineering beginning in Fall 2027.
+My technical experience includes MATLAB, Simulink, OpenRocket, Python, SOLIDWORKS, XFOIL, ABAQUS, Excel, XFOIL, and ANSYS Fluent. I plan to pursue an M.S. in Aerospace Engineering beginning in Fall 2027.
+
+I am an active member of the IREC team in the Alabama Rocketry Association (ARA) and the University of Alabama AIAA student chapter.
 
 ---
 
@@ -25,14 +25,14 @@ My technical experience includes MATLAB, Simulink, OpenRocket, Python, SOLIDWORK
 ### NAR Level 1 Certification Rocket
 **Tools:** OpenRocket, SOLIDWORKS
 
-Designing and modeling a high-power rocket with a recovery system while evaluating stability and flight performance.
+Designing and modeling an H100W_DM-4 configuration rocket with a parachute recovery system incorporating shock cords for a safe descent and vehicle recovery in OpenRocket and SOLIDWORKS to evaluate vehicle geometry, flight performance, and stability. 
 
 *Project in progress.*
 
 ### Titan Sea Drone — Stability and Control
 **Tools:** MATLAB, Simulink
 
-Leading stability and control development for a VTOL drone designed to operate in Titan's atmosphere and land on its hydrocarbon seas.
+Leading stability and control development for senior design project on a VTOL drone designed to operate in Titan's atmosphere, land on its hydrocarbon seas, and collect liquid samples.
 
 *Project in progress.*
 
@@ -44,7 +44,7 @@ Developed a computational model of an unsymmetrical L-shaped cantilever beam and
 ### NACA Airfoil Analysis
 **Tools:** XFOIL, Excel
 
-Analyzed NACA airfoils using Thin Airfoil Theory and numerical simulations to evaluate lift characteristics, pitching moments, and pressure distributions.
+Analyzed NACA airfoils using Thin Airfoil Theory and numerical simulations to evaluate lift characteristics, pitching moments, and pressure distributions across varying angle-of-attacks.
 
 ### Glider Design Project
 **Focus:** Design, Fabrication, Testing
@@ -53,6 +53,12 @@ Led a student engineering team through the design, construction, and testing of 
 
 ---
 
+## Resume
+
+
+
 ## Contact
 
 [LinkedIn Profile](https://www.linkedin.com/in/collin-atkins1/)
+
+[Handshake Profile](https://app.joinhandshake.com/profiles/bgucxa)
