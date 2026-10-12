@@ -132,13 +132,13 @@ The spring semester is planned to focus on refining the flight-dynamics and cont
 
 *Figure 3. Spring 2027 stability and control development and testing schedule.*
 
-## Current Progress and Next Steps
+## Next Steps
 
-The project is in the preliminary design phase.
+The next stage will focus on developing the parameterized hover model and establishing preliminary control margins. Required inputs include vehicle mass, moments of inertia, rotor locations, thrust limits, and motor response.
 
-My current focus includes controller selection, identifying required subsystem parameters, developing the flight-dynamics modeling approach, and establishing verification criteria.
+I will then compare PID and LQR under the same simulated conditions using tracking error, settling time, overshoot, control effort, and sensitivity to parameter changes. The analysis will also check actuator saturation and the effects of center-of-gravity shifts.
 
-Future work will involve controller implementation, evaluating stability and control margins, integrating subsystem models, and comparing predicted performance against testing results.
+Future updates will include model assumptions, controller response plots, and comparisons with Earth-demonstrator test data as they become available.
 
 I plan to update this page with MATLAB and Simulink results, controller response plots, and additional engineering findings as the design progresses.
 
