@@ -2,11 +2,11 @@
 # Collin Atkins
 ### Aerospace Engineering Portfolio
 
-**Aerospace Engineering Senior | The University of Alabama**
+**Aerospace Engineering Senior | The University of Alabama - Tuscaloosa, AL**
 
-Interests: Flight Dynamics and Control, Propulsion Systems, Aerospace Structures, Rocketry, Spacecraft Systems, Orbital Mechanics, and Aerodynamics.
+Interests: Flight Dynamics and Control, Aerospace Structures, Rocketry, Spacecraft Systems, Orbital Mechanics, and Aerodynamics.
 
-Expected Graduation: May 2027
+Expected Graduation Date: May 7, 2027
 
 ---
 
@@ -14,9 +14,9 @@ Expected Graduation: May 2027
 
 I am a senior aerospace engineering student at The University of Alabama, planning to graduate May 2027 with a 3.73 GPA.
 
-My technical experience includes MATLAB, Simulink, OpenRocket, Python, SOLIDWORKS, XFOIL, ABAQUS, Excel, XFOIL, and ANSYS Fluent. I plan to pursue an M.S. in Aerospace Engineering beginning in Fall 2027.
+My technical experience includes MATLAB, Simulink, OpenRocket, Python, SOLIDWORKS, XFOIL, ABAQUS, Excel, XFOIL, and ANSYS Fluent. I'm planning to pursue an M.S. in Aerospace Engineering beginning in Fall 2027.
 
-I am an active member of the IREC team in the Alabama Rocketry Association (ARA) and the University of Alabama AIAA student chapter.
+I am an active member of the IREC team in the Alabama Rocketry Association (ARA) and the University of Alabama AIAA student chapter. These organizations have given me hands-on engineering experience, along with my aerospace engineering coursework, and a deeper understanding of the aerospace field. 
 
 ---
 
@@ -32,31 +32,31 @@ Designing and modeling an H100W_DM-4 configuration rocket with a parachute recov
 ### [Titan Sea Drone — Stability and Control](projects/titan-drone.html)
 **Tools:** MATLAB, Simulink
 
-Leading stability and control development for senior design project on a VTOL drone designed to operate in Titan's atmosphere, land on its hydrocarbon seas, and collect liquid samples.
+Leading the stability and control development for my senior design project on a VTOL drone designed to operate in Titan's atmosphere, land on its hydrocarbon seas, and collect liquid samples via a vacuum mechanism.
 
 *Project in progress.*
 
 ### [Aerospace Structures Analysis](projects/structures.html)
 **Methods:** Bernoulli–Euler Beam Theory
 
-Developed a computational model of an unsymmetrical L-shaped cantilever beam and compared theoretical predictions with experimental measurements.
+Developed a computational model of an unsymmetrical L-shaped cantilever beam and compared my theoretical predictions with actual experimental measurements.
 
 ### [Spacecraft Mission Design Program](projects/spacecraft-mission.html)
 
 **Tools:** MATLAB
 
-Developed a MATLAB program to simulate a spacecraft mission involving a two-stage launch, orbital transfer, plane change, and rendezvous. Used numerical integration and orbital mechanics to calculate maneuver requirements and visualize spacecraft trajectories.
+Developed a MATLAB program to simulate a spacecraft mission involving a two-stage launch, orbital transfer, plane change, and rendezvous. Used numerical integration and orbital mechanics to calculate maneuver requirements and visualize spacecraft trajectories as well.
 
 ### [NACA Airfoil Analysis](projects/airfoils.html)
 **Tools:** XFOIL, Excel
 
-Analyzed NACA airfoils using Thin Airfoil Theory and numerical simulations to evaluate lift characteristics, pitching moments, and pressure distributions across varying angle-of-attacks.
+Analyzed NACA airfoils and compared them using Thin Airfoil Theory and numerical simulations to evaluate their lift characteristics, pitching moments, and pressure distributions across varying angles-of-attack.
 
 ### [Airplane Performance Analysis](projects/airplane-performance.html)
 
 **Tools:** MATLAB
 
-Developed a MATLAB program to analyze and compare jet and propeller aircraft performance, including thrust, drag, power requirements, flight envelopes, climb performance, range, and endurance across varying altitudes.
+Developed a MATLAB program to analyze and compare jet and propeller aircraft performance including the following performance parameters across varying altitudes: thrust, drag, power requirements, flight envelopes, climb performance, range, and endurance. 
 
 ### [Glider Design and Flight Testing](projects/glider.html)
 **Focus:** Design, Fabrication, Testing
