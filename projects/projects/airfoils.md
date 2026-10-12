@@ -68,11 +68,19 @@ For example, the theoretical zero-lift angles were:
 
 These results demonstrate the influence of camber magnitude and location on aerodynamic characteristics.
 
+![NACA airfoil mean camber lines](/airfoil-camber.png)
+
+*Figure 1. Mean camber lines for the six NACA airfoils.*
+
 ### Lift-Curve Comparisons
 
 Thin Airfoil Theory and XFOIL produced similar lift predictions within the approximately linear operating region.
 
 Differences between theoretical and numerical predictions became more apparent when viscous effects and higher angles of attack were considered.
+
+![NACA 2408 lift-curve comparison](/airfoil-lift.png)
+
+*Figure 2. Thin Airfoil Theory and XFOIL lift-curve comparison for NACA 2408.*
 
 ### Thickness Variation
 
@@ -80,11 +88,19 @@ Additional simulations investigated the influence of thickness on the NACA 24xx 
 
 The results were used to compare changes in lift behavior and the effects of thickness under inviscid and viscous conditions.
 
+![NACA 2408 thickness variation](/airfoil-thickness.png)
+
+*Figure 3. Influence of thickness on viscous lift characteristics.*
+
 ### Pressure-Coefficient Distributions
 
 Pressure-coefficient distributions were generated using XFOIL to compare inviscid and viscous predictions at different angles of attack.
 
 These plots demonstrated how the pressure distribution changes along the airfoil chord and how viscous effects influence aerodynamic behavior.
+
+![NACA 2408 pressure-coefficient comparison](/airfoil-cp.png)
+
+*Figure 4. Inviscid and viscous pressure-coefficient distributions at 4° angle of attack.*
 
 ## Engineering Takeaways
 
