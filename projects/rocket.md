@@ -21,6 +21,10 @@ The goal is to design, construct, and successfully recover a rocket powered by a
 
 I developed a preliminary rocket configuration using OpenRocket to evaluate its geometry, mass properties, and predicted flight characteristics.
 
+![Preliminary OpenRocket rocket design](../rocket-design.png)
+
+*Figure 1. Preliminary OpenRocket design showing the rocket configuration.*
+
 The preliminary design includes:
 
 - **Rocket motor:** AeroTech H100W
@@ -49,6 +53,10 @@ The preliminary simulation produced the following results:
 | Time to Apogee | 11.3 s |
 | Total Flight Time | 270 s |
 | Landing Velocity | 13.3 ft/s |
+
+![Predicted altitude versus time](../rocket-altitude.png)
+
+*Figure 2. Preliminary altitude versus time simulation.*
 
 The calculated static stability margin of 1.74 calibers at Mach 0.300 indicates a restoring tendency following small angular disturbances at that flight condition.
 
