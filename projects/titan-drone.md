@@ -56,6 +56,10 @@ LQR remains an alternative for future evaluation.
 
 The planned quantitative comparison will evaluate tracking accuracy, response time, overshoot, control effort, and sensitivity to vehicle parameter changes.
 
+![PID vs. LQR Controller Trade Study](/controller-trade-study.png)
+
+*Figure 1. Preliminary qualitative trade study comparing PID and LQR control approaches.*
+
 ## Control Authority and Design Considerations
 
 The stability and control design must account for the vehicle's mass properties, rotor arrangement, actuator limits, and operating conditions.
@@ -75,6 +79,10 @@ The preliminary analysis will help guide vehicle configuration decisions as subs
 
 I developed a preliminary risk-management and verification approach addressing uncertain mass properties, insufficient control authority, actuator saturation, and integration challenges.
 
+![Stability and Control Risk Assessment Matrix](/risk-matrix.png)
+
+*Figure 2. Preliminary stability and control risk assessment, including likelihood, impact, and proposed mitigation strategies.*
+
 The planned verification process includes:
 
 1. MATLAB flight-dynamics modeling.
@@ -85,6 +93,26 @@ The planned verification process includes:
 6. Flight testing of an Earth-based demonstrator.
 
 Separate Earth and Titan operating parameters will be maintained because Earth-based testing cannot directly validate performance under Titan's atmospheric conditions.
+
+## Project Timeline and Milestones
+
+The stability and control development schedule is organized into fall and spring phases and aligned with the senior design team's major project milestones.
+
+### Fall 2026 — Preliminary Design
+
+The fall semester focuses on establishing stability and control requirements, developing preliminary flight-dynamics models, evaluating controller approaches, and preparing the verification plan.
+
+![Fall Stability and Control Gantt Chart](/fall-gantt.png)
+
+*Figure 3. Fall 2026 stability and control project timeline and milestones.*
+
+### Spring 2027 — Development and Testing
+
+The spring semester is planned to focus on refining the flight-dynamics and control models, integrating the major subsystems, and conducting staged ground and flight testing.
+
+![Spring Stability and Control Gantt Chart](/spring-gantt.png)
+
+*Figure 4. Spring 2027 stability and control development and testing schedule.*
 
 ## Current Progress and Next Steps
 
