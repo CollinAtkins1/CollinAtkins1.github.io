@@ -8,7 +8,7 @@ The University of Alabama · AEM 313 · April 2026
 
 **Methods:** Thin Airfoil Theory, Inviscid and Viscous Aerodynamic Analysis
 
-<a href="airfoil-report.pdf" target="_blank" rel="noopener">
+<a href="/airfoil-report.pdf" target="_blank" rel="noopener">
   View Project Report (PDF)
 </a>
 
