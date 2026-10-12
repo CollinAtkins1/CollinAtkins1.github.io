@@ -32,7 +32,7 @@ For the second part of the project, I compared the MATLAB results I obtained wit
 
 ## Part 1 — Computational Structural Analysis
 
-I organized my MATLAB code into separate functions to make it easier to adjust the beam's dimensions, material properties, length, and applied tip loads without having to rewrite the main program each time I ran into an error.
+I organized my MATLAB code into separate functions to make it easier to adjust the beam's dimensions, material properties, length, and applied tip loads without having to rewrite the main program each time for each new case.
 
 The program calculated the following parameters of the beam:
 
@@ -68,7 +68,7 @@ I compared the different cases using percent error and root-mean-square error (R
 
 ## Key Results
 
-The displacement errors for both models are summarized in the table below. I used RMSE to measure how far away the predicted displacements were from the actual measurements. Lower RMSE values mean the model's predictions are closer to the experimental results.
+The displacement errors for all four model cases are summarized in the table below. I used RMSE to measure how far away the predicted displacements were from the actual measurements. Lower RMSE values mean the model's predictions are closer to the experimental results.
 
 | Model | Vertical displacement RMSE (mm) | Horizontal displacement RMSE (mm) |
 |---|---:|---:|
@@ -79,7 +79,7 @@ The displacement errors for both models are summarized in the table below. I use
 
 Adjusting the boundary conditions at the clamped end made a much bigger difference in how well the model matched the measured displacements than changing Young's modulus alone. When I adjusted both of them, the vertical displacement RMSE decreased by about 91% compared to the original model. However, I found that adjusting only the boundary conditions gave the best results for horizontal displacement.
 
-I also found that adjusting both didn't improve every part of the model. While it helped reduce the strain error at the side gages, the error at the base gages actually increased compared to the error at the base of the original model. This showed me that making the model more accurate in one area doesn't always mean it will give better results everywhere else in the model.
+I also found that adjusting both didn't improve every part of the model. While it helped reduce the strain error at the side gages, the error at the base gages actually increased compared to the base-gage strain error in the baseline model. This showed me that making the model more accurate in one area doesn't always mean it will give better results everywhere else in the model.
 
 ## Model Assumptions and Limitations
 
