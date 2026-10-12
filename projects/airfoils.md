@@ -1,12 +1,6 @@
-
----
-layout: default
-title: NACA Airfoil Analysis
----
-
 # NACA Airfoil Analysis
 
-**The University of Alabama | AEM 313 | April 2026**
+The University of Alabama · AEM 313 · April 2026
 
 **Role:** Aerodynamics Analyst / Project Co-Lead
 
@@ -18,11 +12,11 @@ title: NACA Airfoil Analysis
 
 This group project investigated the aerodynamic performance of six NACA 4-digit airfoils using Thin Airfoil Theory (TAT) and XFOIL.
 
-The objective was to evaluate how changes in the maximum camber, camber location, thickness, and Reynolds number of each airfoil affect its lift characteristics, pitching moments, pressure distributions, and overall aerodynamic performance.
+The objective was to evaluate how changes in the maximum camber, camber location, thickness, and Reynolds number affect its lift characteristics, pitching moments, pressure distributions, and overall aerodynamic performance.
 
 The six airfoils analyzed were NACA 1108, 2408, 1408, 2308, 4408, and 0008.
 
-My individual contributions focused on NACA 2408, NACA 1408, and NACA 2308. This included the theoretical calculations, XFOIL simulations, aerodynamic plots, and technical documentation of these three arifoils.
+My individual contributions focused on NACA 2408, NACA 1408, and NACA 2308. This included the theoretical calculations, XFOIL simulations, aerodynamic plots, and technical documentation of these three airfoils.
 
 ## Thin Airfoil Theory Analysis
 
