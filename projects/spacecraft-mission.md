@@ -1,4 +1,3 @@
-
 ---
 layout: default
 title: Spacecraft Mission Design Program
@@ -6,23 +5,27 @@ title: Spacecraft Mission Design Program
 
 # Spacecraft Mission Design Program
 
-**The University of Alabama | AEM 369 | March 2026**
+**The University of Alabama · AEM 369 · March 2026**
 
-**Role:** Independent Project
+**Project Type:** Individual Course Project  
+**Tools:** MATLAB  
+**Methods:** Numerical Integration, Launch Dynamics, Orbital Mechanics, Coordinate Transformations, Impulsive Maneuver Analysis
 
-**Tools:** MATLAB
-
-**Methods:** Orbital Mechanics, Numerical Integration, Trajectory Simulation, Spacecraft Rendezvous
+<a href="/spacecraft-mission.pdf" target="_blank" rel="noopener">
+  View MATLAB Program &amp; Results (PDF)
+</a>
 
 ## Project Overview
 
-I developed a MATLAB program to simulate a spacecraft mission involving launch, orbital insertion, transfer to geostationary orbital altitude, plane change, and spacecraft rendezvous.
+## Project Overview
 
-The objective was to model a two-stage launch vehicle and determine the orbital maneuvers required for a chaser spacecraft to rendezvous with a target in a specified polar geosynchronous orbit.
+I developed a MATLAB program to model a two-stage launch from Kennedy Space Center and a sequence of orbital maneuvers for rendezvous with a target spacecraft in a polar geosynchronous orbit.
 
-The program calculates orbital parameters, required velocity changes, maneuver timing, and spacecraft trajectories.
+The program combines numerical launch simulation with analytical orbital calculations to estimate transfer trajectories, velocity-change requirements, and mission timing. The modeled sequence includes launch, transfer-orbit injection, circularization, a coast to the intersection of the orbital planes, a plane change, and a two-impulse phasing maneuver.
 
-## Launch and Orbital Insertion
+My work included implementing the equations of motion, converting launch states into Earth-centered inertial coordinates, calculating orbital elements, and generating trajectory visualizations.
+
+## Launch and Deployment
 
 The mission begins with a simulated launch from Kennedy Space Center in Florida.
 
@@ -34,9 +37,9 @@ The simulation incorporated:
 - Gravitational acceleration and atmospheric drag.
 - Gravity-turn and pitch-over maneuvers.
 - Vehicle mass changes during propellant consumption.
-- Earth's rotation and inertial velocity calculations.
+- Earth-rotation correction when converting the deployment velocity to an inertial reference frame.
 
-The simulated launch produced an orbital insertion altitude of approximately 218.11 km.
+The modeled launch reached a deployment altitude of 218.11 km and an inertial speed of 6.249 km/s. This deployment state provided the initial conditions for the transfer-injection maneuver.
 
 ![Launch altitude versus time](/spacecraft-launch.png)
 
@@ -44,19 +47,20 @@ The simulated launch produced an orbital insertion altitude of approximately 218
 
 ## Orbital Transfer and Plane Change
 
-Following orbital insertion, the program calculates a Hohmann transfer to geostationary orbital altitude.
+Starting from the deployment state, the program calculates an impulsive injection into an elliptical transfer orbit with an apogee radius of 42,164 km.
 
-The orbital maneuver sequence includes:
+The modeled sequence includes:
 
-1. Transfer from the insertion orbit to geostationary transfer orbit (GTO).
-2. Circularization at geostationary orbital altitude.
-3. Plane change into the target polar orbital plane.
+1. Transfer-orbit injection at deployment.
+2. Circularization at geosynchronous altitude.
+3. A coast along the initial circular orbit to its intersection with the target orbital plane.
+4. An impulsive plane change into the target polar plane.
 
-The program calculates the velocity changes and orbital elements associated with these maneuvers.
+The program calculates the velocity changes, coast times, and orbital elements associated with these phases.
 
 ![GTO transfer trajectory](/spacecraft-gto.png)
 
-*Figure 2. Geostationary transfer orbit trajectory in the perifocal reference frame.*
+*Figure 2. Modeled elliptical transfer trajectory in the perifocal reference frame.*
 
 ## Spacecraft Rendezvous
 
@@ -70,17 +74,16 @@ The phasing analysis accounts for target motion during the preceding mission pha
 
 ## Mission Results and Trajectory Visualization
 
-The MATLAB program generated orbital parameters, velocity-change requirements, maneuver durations, and trajectory plots.
+The program reports orbital elements, impulsive velocity changes, elapsed times, and trajectory plots. Selected outputs from the modeled mission are summarized below.
 
-The simulation produced the following results:
-
-| Parameter | Calculated Value |
-|---|---|
-| Orbital Insertion Altitude | 218.11 km |
-| GTO Semi-Major Axis | 24,380.05 km |
-| Target Orbital Semi-Major Axis | 42,164 km |
-| Total Required Delta-V | 7,385.92 m/s |
-| Total Mission Duration | 33.76 hours |
+| Parameter | Model Output |
+|---|---:|
+| Deployment altitude | 218.11 km |
+| Deployment inertial speed | 6.249 km/s |
+| Transfer-orbit semi-major axis | 24,380.05 km |
+| Target circular-orbit radius | 42,164 km |
+| Total post-deployment maneuver delta-v | 7,385.92 m/s |
+| Total modeled mission duration, including launch | 33.76 hours |
 
 The program also generated a three-dimensional trajectory visualization showing the GTO transfer, initial GEO coast, phasing orbit, and maneuver locations.
 
@@ -88,17 +91,18 @@ The program also generated a three-dimensional trajectory visualization showing 
 
 *Figure 4. Three-dimensional spacecraft trajectory from deployment through the modeled rendezvous sequence.*
 
-## Model Limitations
+## Model Assumptions and Limitations
 
-The mission analysis uses several simplifying assumptions, including:
+This project uses a simplified mission model with:
 
-- Simplified launch dynamics and atmospheric modeling.
-- Instantaneous pitch-over and stage separation.
-- Impulsive orbital maneuvers rather than finite-duration burns.
-- Ideal Keplerian orbital motion between maneuvers.
-- No optimization for minimum propellant consumption or total delta-v.
+- Spherical-Earth gravity and an exponential atmosphere.
+- Constant drag coefficient and reference area, with no winds.
+- Simplified launch equations that omit Coriolis acceleration.
+- Instantaneous pitchover and stage separation.
+- Impulsive orbital maneuvers and Keplerian coast segments.
+- No optimization of the complete mission for minimum propellant consumption or total delta-v.
 
-These assumptions make the program suitable for preliminary mission analysis rather than detailed mission verification.
+The results represent an educational mission-analysis case. Further verification would require continuous trajectory propagation, finite-duration burn modeling, and checks of the final relative position and velocity between the chaser and target.
 
 ## Engineering Takeaways
 
