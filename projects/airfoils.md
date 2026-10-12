@@ -18,17 +18,17 @@ title: NACA Airfoil Analysis
 
 This group project investigated the aerodynamic performance of six NACA 4-digit airfoils using Thin Airfoil Theory (TAT) and XFOIL.
 
-The objective was to evaluate how changes in maximum camber, camber location, thickness, and Reynolds number affect lift characteristics, pitching moments, pressure distributions, and overall aerodynamic performance.
+The objective was to evaluate how changes in the maximum camber, camber location, thickness, and Reynolds number of each airfoil affect its lift characteristics, pitching moments, pressure distributions, and overall aerodynamic performance.
 
 The six airfoils analyzed were NACA 1108, 2408, 1408, 2308, 4408, and 0008.
 
-My individual contributions focused on NACA 2408, NACA 1408, and NACA 2308, including theoretical calculations, XFOIL simulations, aerodynamic plots, and technical documentation.
+My individual contributions focused on NACA 2408, NACA 1408, and NACA 2308. This included the theoretical calculations, XFOIL simulations, aerodynamic plots, and technical documentation of these three arifoils.
 
 ## Thin Airfoil Theory Analysis
 
 Thin Airfoil Theory was used to calculate aerodynamic characteristics based on airfoil camber geometry.
 
-The analysis included:
+The analysis included the following:
 
 - Mean camber-line calculations.
 - Zero-lift angle of attack.
@@ -36,15 +36,15 @@ The analysis included:
 - Center-of-pressure location.
 - Theoretical lift coefficients.
 
-The analytical results provided a baseline for comparison with XFOIL simulations.
+The analytical results obtained from the TAT analysis provided a baseline for comparison with XFOIL simulations.
 
 ## XFOIL Aerodynamic Analysis
 
-I conducted inviscid and viscous XFOIL analyses to evaluate the aerodynamic behavior of the selected NACA airfoils.
+I also conducted inviscid and viscous XFOIL analyses to evaluate the aerodynamic behavior of the selected NACA airfoils.
 
-Lift coefficients were compared over varying angles of attack, and the results were plotted in Excel alongside Thin Airfoil Theory predictions.
+Lift coefficients were compared to each other over varying angles of attack, and the results were plotted in Excel alongside TAT predictions.
 
-The project included comparisons of:
+The project included comparisons of the following:
 
 - Theoretical and numerical lift curves.
 - Inviscid and viscous flow predictions.
@@ -56,9 +56,9 @@ The project included comparisons of:
 
 ### Camber Effects
 
-The analysis showed that increasing airfoil camber generally increased lift at a given angle of attack and shifted the zero-lift angle in the negative direction.
+The analysis showed that increasing airfoil camber would generally increase lift at a given angle of attack and shift the zero-lift angle in the negative direction.
 
-For example, the theoretical zero-lift angles were:
+For example, the theoretical zero-lift angles were the following:
 
 | Airfoil | Zero-Lift Angle |
 |---|---|
@@ -74,9 +74,9 @@ These results demonstrate the influence of camber magnitude and location on aero
 
 ### Lift-Curve Comparisons
 
-Thin Airfoil Theory and XFOIL produced similar lift predictions within the approximately linear operating region.
+TAT and XFOIL both produced similar lift predictions within the approximately linear operating region.
 
-Differences between theoretical and numerical predictions became more apparent when viscous effects and higher angles of attack were considered.
+Differences between theoretical and numerical predictions became more apparent when viscous effects and higher angles of attack were added to consideration.
 
 ![NACA 2408 lift-curve comparison](/airfoil-lift.png)
 
@@ -86,7 +86,7 @@ Differences between theoretical and numerical predictions became more apparent w
 
 Additional simulations investigated the influence of thickness on the NACA 24xx airfoil family.
 
-The results were used to compare changes in lift behavior and the effects of thickness under inviscid and viscous conditions.
+The results obtained were used to compare changes in lift behavior and the effects of thickness under inviscid and viscous conditions.
 
 ![NACA 2408 thickness variation](/airfoil-thickness.png)
 
@@ -94,9 +94,9 @@ The results were used to compare changes in lift behavior and the effects of thi
 
 ### Pressure-Coefficient Distributions
 
-Pressure-coefficient distributions were generated using XFOIL to compare inviscid and viscous predictions at different angles of attack.
+Pressure-coefficient distributions were generated using XFOIL to compare the inviscid and viscous predictions at different angles of attack.
 
-These plots demonstrated how the pressure distribution changes along the airfoil chord and how viscous effects influence aerodynamic behavior.
+These plots demonstrated how the pressure distribution changes along the airfoil chord. It also showed how viscous effects influence aerodynamic behavior.
 
 ![NACA 2408 pressure-coefficient comparison](/airfoil-cp.png)
 
@@ -104,15 +104,15 @@ These plots demonstrated how the pressure distribution changes along the airfoil
 
 ## Engineering Takeaways
 
-This project strengthened my understanding of aerodynamic modeling, airfoil geometry, and the limitations of simplified analytical methods.
+This project strengthened my understanding of aerodynamic modeling, airfoil geometry, and the limitations of simplified analytical methods and my technical skills using XFOIL and Excel.
 
-Comparing Thin Airfoil Theory with XFOIL helped demonstrate the importance of numerical simulation when evaluating aerodynamic characteristics under different flow conditions.
+Comparing my TAT results with my XFOIL results helped demonstrate the importance of numerical simulation when evaluating aerodynamic characteristics under different flow conditions.
 
-The project also provided experience in processing simulation data, interpreting aerodynamic plots, and communicating technical findings through an engineering report.
+The project also provided me experience in processing simulation data, interpreting aerodynamic plots, and communicating my technical findings in an engineering report.
 
 ## Project Contributions
 
-This was a two-person group project completed with Nigel Pruitt.
+This was a two-person group project completed with a fellow aerospace engineering classmate in AEM313. 
 
 My individual responsibilities included the NACA 2408, 1408, and 2308 analyses, aerodynamic calculations, XFOIL simulations, Excel plots, and contributions to the report's methodology, results, and formatting.
 
