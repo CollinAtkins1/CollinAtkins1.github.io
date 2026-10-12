@@ -21,11 +21,11 @@ I developed a program in MATLAB to simulate a two-stage rocket launch from Kenne
 
 This program combines a numerical launch simulation with orbital calculations to model the mission from liftoff to rendezvous. This includes the following: launching the rocket, entering a transfer orbit, circularizing the orbit, coasting to the point where the orbital planes intersect, performing a plane change, and completing a two-impulse phasing maneuver to reach the target spacecraft.
 
-Throughout the programing project, I worked on implementing the equations of motion (EOM), converting launch data into Earth-centered inertial coordinates, calculating orbital elements, and creating visualizations to better understand the spacecraft's trajectory and the timing of each maneuver.
+Throughout the programming project, I worked on implementing the equations of motion (EOM), converting launch data into Earth-centered inertial coordinates, calculating orbital elements, and creating visualizations to better understand the spacecraft's trajectory and the timing of each maneuver.
 
 ## Launch and Deployment
 
-The programming mission starts with a simulated rocket launch from Kennedy Space Center in Merritt Island, Florida. I used MATLAB's ode45 solver to model the launch and solve the rocket's equations of motion (EOMs). I also used it to track how its position and velocity changed throughout the flight.
+The simulated mission starts with a simulated rocket launch from Kennedy Space Center in Merritt Island, Florida. I used MATLAB's ode45 solver to model the launch and solve the rocket's equations of motion (EOMs). I also used it to track how its position and velocity changed throughout the flight.
 
 The simulation incorporated the following:
 
@@ -35,7 +35,7 @@ The simulation incorporated the following:
 - Vehicle mass changes during propellant consumption.
 - Earth-rotation correction when converting the deployment velocity to an inertial reference frame.
 
-The simulation resulted in a deployment altitude of 218.11 km and an inertial velocity of 6.249 km/s. I then used these values as the starting conditions for calculating the next part of the mission, the transfer-injection maneuver.
+The simulation resulted in a deployment altitude of 218.11 km and an inertial speed of 6.249 km/s. I then used these values as the starting conditions for calculating the next part of the mission, the transfer-injection maneuver.
 
 ![Launch altitude versus time](/spacecraft-launch.png)
 
@@ -81,7 +81,7 @@ The program calculates the orbital elements, velocity changes, and time required
 | Total post-deployment maneuver delta-v | 7,385.92 m/s |
 | Total modeled mission duration, including launch | 33.76 hours |
 
-I also created a 3D plot to show the spacecraft's path throughout the mission. It includes the GTO transfer, initial GEO coast, and phasing orbit. The plot also highlights where each maneuver takes place. This makes it easier to see how the spacecraft moves between the different orbits.
+I also created a 3D plot to show the spacecraft's path throughout the mission. It includes the elliptical transfer, initial geosynchronous coast, and phasing orbit. The plot also highlights where each maneuver takes place. This makes it easier to see how the spacecraft moves between the different orbits.
 
 ![3D spacecraft mission trajectory](/spacecraft-trajectory.png)
 
@@ -89,7 +89,7 @@ I also created a 3D plot to show the spacecraft's path throughout the mission. I
 
 ## Model Assumptions and Limitations
 
-This project uses a simplified mission model with the following parameters:
+This project uses a simplified mission model with the following assumptions:
 
 - Spherical-Earth gravity and an exponential atmosphere.
 - Constant drag coefficient and reference area, with no winds.
@@ -103,8 +103,6 @@ These results provide a good starting point for understanding how the mission wo
 ## Engineering Takeaways
 
 This project helped me better understand orbital mechanics and how spacecraft trajectories can be modeled using MATLAB. By developing this MATLAB program, I gained hands-on aerospace engineering experience with numerical integration, coordinate transformations, calculating orbital elements, and planning orbital maneuvers. I also learned how to visualize spacecraft trajectories. This helped me better understand how the different stages of the mission connect.
-
-This project also showed me how individual mission phases can be integrated into a complete preliminary spacecraft mission analysis.
 
 ---
 
