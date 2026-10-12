@@ -29,7 +29,7 @@ Designing and modeling an H100W_DM-4 configuration rocket with a parachute recov
 
 *Project in progress.*
 
-### Titan Sea Drone — Stability and Control
+### [Titan Sea Drone — Stability and Control](projects/titan-drone.html)
 **Tools:** MATLAB, Simulink
 
 Leading stability and control development for senior design project on a VTOL drone designed to operate in Titan's atmosphere, land on its hydrocarbon seas, and collect liquid samples.
