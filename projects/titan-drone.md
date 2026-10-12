@@ -3,15 +3,23 @@ layout: default
 title: Titan Sea Drone - Stability and Control
 ---
 
-# Titan Sea Drone — Stability and Control
+**Senior Design Project · The University of Alabama · August 2026–Present**
 
-**Senior Design Project | The University of Alabama | August 2026 – Present**
+**Role:** Stability and Control Lead  
+**Status:** Preliminary design; modeling and verification planning  
+**Planned Analysis Tools:** MATLAB and Simulink
 
-**Role:** Stability and Control Lead
+<p>
+  <a href="/titan-design-plan.pdf" target="_blank" rel="noopener noreferrer">
+    View Stability and Control Design Plan (PDF)
+  </a>
+</p>
 
-**Tools:** MATLAB, Simulink
-
-**Status:** Preliminary Design and Development
+<p>
+  <a href="/titan-controller-trade-study.pdf" target="_blank" rel="noopener noreferrer">
+    View Controller Trade Study (PDF)
+  </a>
+</p>
 
 ## Project Overview
 
@@ -22,6 +30,20 @@ Our team is developing a VTOL drone concept designed to fly through Titan's atmo
 The mission concept includes battery-powered flight, radioisotope thermoelectric generator (RTG) trickle charging, and a preliminary flight-range requirement of at least 10 kilometers per battery charge.
 
 My responsibilities involve developing the vehicle's flight-dynamics and control-system approach to support stable and controlled operation throughout the mission.
+
+## My Contributions to Date
+
+As Stability and Control Lead, I developed the subsystem design plan and identified the information needed from the structures, propulsion, aerodynamics, and electronics teams.
+
+My completed work includes:
+
+- A preliminary qualitative comparison of PID and LQR control.
+- A proposed PID baseline for initial hover-control development.
+- Identification of required model inputs, including mass properties, rotor geometry, thrust characteristics, and actuator response.
+- A preliminary risk assessment and staged verification plan.
+- Fall and spring schedules aligned with the team's design milestones.
+
+The next step is to use the team's preliminary vehicle parameters to develop the hover model and evaluate control margins.
 
 ## Stability and Control Design
 
@@ -56,10 +78,6 @@ LQR remains an alternative for future evaluation.
 
 The planned quantitative comparison will evaluate tracking accuracy, response time, overshoot, control effort, and sensitivity to vehicle parameter changes.
 
-![PID vs. LQR Controller Trade Study](/controller-trade-study.png)
-
-*Figure 1. Preliminary qualitative trade study comparing PID and LQR control approaches.*
-
 ## Control Authority and Design Considerations
 
 The stability and control design must account for the vehicle's mass properties, rotor arrangement, actuator limits, and operating conditions.
@@ -81,7 +99,7 @@ I developed a preliminary risk-management and verification approach addressing u
 
 ![Stability and Control Risk Assessment Matrix](/risk-matrix.png)
 
-*Figure 2. Preliminary stability and control risk assessment, including likelihood, impact, and proposed mitigation strategies.*
+*Figure 1. Preliminary stability and control risk assessment, including likelihood, impact, and proposed mitigation strategies.*
 
 The planned verification process includes:
 
@@ -104,7 +122,7 @@ The fall semester focuses on establishing stability and control requirements, de
 
 ![Fall Stability and Control Gantt Chart](/fall-gantt.png)
 
-*Figure 3. Fall 2026 stability and control project timeline and milestones.*
+*Figure 2. Fall 2026 stability and control project timeline and milestones.*
 
 ### Spring 2027 — Development and Testing
 
@@ -112,7 +130,7 @@ The spring semester is planned to focus on refining the flight-dynamics and cont
 
 ![Spring Stability and Control Gantt Chart](/spring-gantt.png)
 
-*Figure 4. Spring 2027 stability and control development and testing schedule.*
+*Figure 3. Spring 2027 stability and control development and testing schedule.*
 
 ## Current Progress and Next Steps
 
