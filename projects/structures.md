@@ -15,6 +15,10 @@ title: Aerospace Structures Analysis
 
 Developed a MATLAB program to analyze bidirectional bending of an unsymmetrical L-shaped cantilever beam. The project involved calculating structural properties, bending stresses, and horizontal and vertical deflections, followed by comparisons with experimental strain and displacement measurements.
 
+![L-shaped cantilever beam geometry](../images/beam-geometry.png)
+
+*Figure 1. L-shaped cantilever beam geometry and loading configuration.*
+
 ## Part 1 — Computational Structural Analysis
 
 Developed a generalized MATLAB model using Bernoulli–Euler beam theory to calculate:
@@ -28,6 +32,10 @@ The model was applied to a 1-meter aluminum cantilever beam subjected to a 12-lb
 
 The analysis demonstrated coupled horizontal and vertical deflection due to the unsymmetrical cross-section.
 
+![Horizontal and vertical beam deflections](../images/beam-deflections.png)
+
+*Figure 2. Predicted horizontal and vertical beam deflections from the MATLAB model.*
+
 ## Part 2 — Experimental Comparison and Model Refinement
 
 Extended the MATLAB model to compare theoretical predictions against experimental strain and deflection measurements from AEM 351.
@@ -39,6 +47,10 @@ To improve agreement with experimental measurements, I evaluated:
 - A fitted Young's modulus.
 - Non-ideal clamping boundary conditions.
 - A combined fitting approach involving both parameters.
+
+![Theoretical and experimental comparison](../images/model-validation.png)
+
+*Figure 3. Comparison of theoretical and experimental results using fitted material properties and boundary conditions.*
 
 ## Key Results
 
