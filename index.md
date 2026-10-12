@@ -22,7 +22,7 @@ I am an active member of the IREC team in the Alabama Rocketry Association (ARA)
 
 ## Engineering Projects
 
-### NAR Level 1 Certification Rocket
+### [NAR Level 1 Certification Rocket](projects/rocket.html)
 **Tools:** OpenRocket, SOLIDWORKS
 
 Designing and modeling an H100W_DM-4 configuration rocket with a parachute recovery system incorporating shock cords for a safe descent and vehicle recovery in OpenRocket and SOLIDWORKS to evaluate vehicle geometry, flight performance, and stability. 
