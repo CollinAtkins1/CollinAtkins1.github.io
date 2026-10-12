@@ -36,7 +36,7 @@ Leading stability and control development for senior design project on a VTOL dr
 
 *Project in progress.*
 
-### Aerospace Structures Analysis
+### [Aerospace Structures Analysis](projects/structures.html)
 **Methods:** Bernoulli–Euler Beam Theory
 
 Developed a computational model of an unsymmetrical L-shaped cantilever beam and compared theoretical predictions with experimental measurements.
