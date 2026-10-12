@@ -127,7 +127,3 @@ I plan to update this page with MATLAB and Simulink results, controller response
 ---
 
 [← Back to Portfolio](../)
-
----
-
-[← Back to Portfolio](../)
