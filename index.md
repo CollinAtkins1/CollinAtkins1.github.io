@@ -41,6 +41,12 @@ Leading stability and control development for senior design project on a VTOL dr
 
 Developed a computational model of an unsymmetrical L-shaped cantilever beam and compared theoretical predictions with experimental measurements.
 
+### [Spacecraft Mission Design Program](projects/spacecraft-mission.html)
+
+**Tools:** MATLAB
+
+Developed a MATLAB program to simulate a spacecraft mission involving a two-stage launch, orbital transfer, plane change, and rendezvous. Used numerical integration and orbital mechanics to calculate maneuver requirements and visualize spacecraft trajectories.
+
 ### [NACA Airfoil Analysis](projects/airfoils.html)
 **Tools:** XFOIL, Excel
 
