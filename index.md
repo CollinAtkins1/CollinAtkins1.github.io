@@ -41,7 +41,7 @@ Leading stability and control development for senior design project on a VTOL dr
 
 Developed a computational model of an unsymmetrical L-shaped cantilever beam and compared theoretical predictions with experimental measurements.
 
-### NACA Airfoil Analysis
+### [NACA Airfoil Analysis](projects/airfoils.html)
 **Tools:** XFOIL, Excel
 
 Analyzed NACA airfoils using Thin Airfoil Theory and numerical simulations to evaluate lift characteristics, pitching moments, and pressure distributions across varying angle-of-attacks.
