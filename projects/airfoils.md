@@ -8,6 +8,10 @@ The University of Alabama · AEM 313 · April 2026
 
 **Methods:** Thin Airfoil Theory, Inviscid and Viscous Aerodynamic Analysis
 
+<a href="airfoil-report.pdf" target="_blank" rel="noopener">
+  View Project Report (PDF)
+</a>
+
 ## Project Overview
 
 This group project investigated the aerodynamic performance of six NACA 4-digit airfoils using Thin Airfoil Theory (TAT) and XFOIL.
@@ -34,7 +38,7 @@ The analytical results obtained from the TAT analysis provided a baseline for co
 
 ## XFOIL Aerodynamic Analysis
 
-I also conducted inviscid and viscous XFOIL analyses to evaluate the aerodynamic behavior of the selected NACA airfoils.
+<p>I also conducted inviscid and viscous XFOIL analyses of NACA 2408, 1408, and 2308, using a baseline Reynolds number of Re = 10<sup>6</sup> for the viscous comparisons.</p>
 
 Lift coefficients were compared to each other over varying angles of attack, and the results were plotted in Excel alongside TAT predictions.
 
@@ -84,17 +88,17 @@ The results obtained were used to compare changes in lift behavior and the effec
 
 ![NACA 2408 thickness variation](/airfoil-thickness.png)
 
-*Figure 3. Influence of thickness on viscous lift characteristics.*
+Figure 3. Effect of thickness variation on the viscous lift curves of the NACA 24xx airfoil family.
 
 ### Pressure-Coefficient Distributions
 
 Pressure-coefficient distributions were generated using XFOIL to compare the inviscid and viscous predictions at different angles of attack.
 
-These plots demonstrated how the pressure distribution changes along the airfoil chord. It also showed how viscous effects influence aerodynamic behavior.
+These plots showed how pressure varies along the airfoil chord and allowed comparison of inviscid and viscous predictions. The NACA 2408 example at 4° shows close agreement between the two solutions, with small differences due to viscous effects.
 
 ![NACA 2408 pressure-coefficient comparison](/airfoil-cp.png)
 
-*Figure 4. Inviscid and viscous pressure-coefficient distributions at 4° angle of attack.*
+<p><em>Figure 4. Inviscid and viscous pressure-coefficient distributions for NACA 2408 at α = 4°, with Re = 10<sup>6</sup> for the viscous solution.</em></p>
 
 ## Engineering Takeaways
 
