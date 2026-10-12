@@ -52,6 +52,12 @@ Developed a MATLAB program to simulate a spacecraft mission involving a two-stag
 
 Analyzed NACA airfoils using Thin Airfoil Theory and numerical simulations to evaluate lift characteristics, pitching moments, and pressure distributions across varying angle-of-attacks.
 
+### [Airplane Performance Analysis](projects/airplane-performance.html)
+
+**Tools:** MATLAB
+
+Developed a MATLAB program to analyze and compare jet and propeller aircraft performance, including thrust, drag, power requirements, flight envelopes, climb performance, range, and endurance across varying altitudes.
+
 ### [Glider Design and Flight Testing](projects/glider.html)
 **Focus:** Design, Fabrication, Testing
 
