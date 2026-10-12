@@ -22,6 +22,10 @@ The objective was to develop a lightweight glider capable of maintaining a contr
 
 The project involved preliminary design, material selection, construction, flight testing, performance calculations, and technical documentation.
 
+![Completed balsa wood glider](/glider-photo.png)
+
+*Figure 1. Completed glider constructed by our engineering team.*
+
 ## Design Requirements
 
 The glider was designed around several constraints:
@@ -41,6 +45,10 @@ Balsa wood was selected as the primary structural material because of its low we
 
 The glider incorporated a main wing, fuselage, horizontal stabilizer, and vertical stabilizer. A payload of four quarters was used, with attention given to weight distribution and center-of-gravity placement.
 
+![Glider design drawings](/glider-design.png)
+
+*Figure 2. Post-build glider configuration, dimensions, and center-of-gravity location.*
+
 The final design had the following characteristics:
 
 | Parameter | Value |
@@ -57,6 +65,14 @@ The final design had the following characteristics:
 After construction, our team conducted hand-launch flight tests to evaluate the glider's performance.
 
 Flight conditions and observations were recorded and used to calculate performance characteristics.
+
+![Glider flight-test data](/glider-results1.png)
+
+*Figure 3. Recorded flight-test conditions and measurements.*
+
+![Calculated glider performance](/glider-results2.png)
+
+*Figure 4. Calculated aerodynamic performance, including glide speed, lift-to-drag ratio, glide angle, and wing loading.*
 
 The reported performance calculations included:
 
@@ -76,6 +92,10 @@ As team lead, I helped coordinate the design, construction, testing, and documen
 Our team used a work breakdown structure (WBS) and Gantt chart to organize responsibilities, track progress, and meet project deadlines.
 
 The project had a maximum budget of $50, and the final documented expenditure was $23.74.
+
+![Glider project Gantt chart](/glider-gantt.png)
+
+*Figure 5. Project schedule used to coordinate glider design, construction, testing, and documentation.*
 
 ## Engineering Takeaways
 
