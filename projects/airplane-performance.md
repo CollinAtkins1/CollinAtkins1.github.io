@@ -71,7 +71,7 @@ The program also creates simplified V–n diagrams at sea level, half the servic
 
 ## Range and Endurance Analysis
 
-The program even estimates cruise range and endurance using the aircrafts' drag characteristics, fuel consumption, and propulsion model. It also accounts for the aircraft becoming lighter as fuel is burned during the duration of their flight.
+The program even estimates cruise range and endurance using the drag characteristics of each aircraft, fuel consumption, and propulsion model. It also accounts for the aircraft becoming lighter as fuel is burned during the duration of their flight.
 
 For both the jet and propeller aircraft, I used different optimum lift coefficients to calculate maximum range and endurance. These calculations do not include fuel reserves or the fuel used during takeoff, climb, and descent.
 
@@ -104,7 +104,7 @@ The results I obtained from the program provide estimates of aircraft performanc
 
 ## Engineering Takeaways
 
-This project helped me better understand how aircraft performance, aerodynamic modeling, and how different propulsion systems affect flight. It also gave me a clearer understanding of how airspeed and altitude influence an aircraft's overall performance.
+This project helped me better understand aircraft performance, aerodynamic modeling, and how different propulsion systems affect flight. It also gave me a clearer understanding of how airspeed and altitude influence an aircraft's overall performance.
 
 I gained more experience through the development of this program with numerical calculations, organizing data, analyzing engineering results, and creating plots to visualize aircraft performance.
 
