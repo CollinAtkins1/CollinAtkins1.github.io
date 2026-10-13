@@ -16,7 +16,7 @@ The University of Alabama · AEM 313 · April 2026
 
 This group project investigated the aerodynamic performance of six NACA 4-digit airfoils using Thin Airfoil Theory (TAT) and XFOIL.
 
-The objective was to evaluate how changes in the maximum camber, camber location, thickness, and Reynolds number affect its lift characteristics, pitching moments, pressure distributions, and overall aerodynamic performance.
+The objective was to evaluate how changes in the maximum camber, camber location, thickness, and Reynolds number affect their lift characteristics, pitching moments, pressure distributions, and overall aerodynamic performance.
 
 The six airfoils analyzed were NACA 1108, 2408, 1408, 2308, 4408, and 0008.
 
