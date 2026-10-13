@@ -20,19 +20,19 @@ title: Airplane Performance Analysis
 
 ## Project Overview
 
-I organized the program into functions for atmospheric density, aerodynamic drag, propulsion performance, flight-speed limits, climb performance, sustained turns, and cruise calculations. Aircraft parameters are stored separately so the same analysis framework can evaluate both jet and propeller configurations.
+I organized the MATLAB program into separate functions to calculate the following parameters: atmospheric density, aerodynamic drag, propulsion performance, flight-speed limits, climb performance, sustained turns, and cruise performance. I also kept the aircraft parameters separate from the main calculations. This made it easier to use the same program to analyze both the jet and propeller-driven aircrafts.
 
-The program evaluates altitude in 100 ft increments and uses interpolation to estimate flight-speed boundaries and ceiling altitudes. Range and endurance calculations account for decreasing aircraft weight as fuel is consumed.
+This program runs calculations at 100 ft altitude intervals and uses interpolation to estimate flight-speed limits and ceiling altitudes. I also accounted for the aircraft getting lighter as fuel is burned during flight for range and endurance.
 
-The objective was to calculate aircraft performance characteristics across varying airspeeds and altitudes using aerodynamic, propulsion, and atmospheric models.
+The main objective of this project was to gain a better understanding of how aircraft performance changes with airspeed and altitude using aerodynamic, propulsion, and atmospheric models.
 
-The program evaluates thrust, drag, power, climb performance, maneuvering capabilities, range, endurance, and operational flight limits for both aircraft configurations.
+Overall, this program calculates the parameters for both aircrafts, including thrust, drag, power, climb performance, turning capabilities, range, endurance, and flight limits for both aircraft types. This makes it possible to compare their performance under different flight conditions.
 
 ## MATLAB Program Development
 
-I organized the program using functions to perform calculations for both jet and propeller aircraft using their respective geometric, aerodynamic, and propulsion parameters.
+I organized the program into separate functions to calculate the performance of both jet and propeller-driven aircraft using their specific geometric, aerodynamic, and propulsion parameters.
 
-The analysis incorporates:
+The aircraft analysis incorporates the following flight parameters:
 
 - Aircraft weight, wingspan, wing area, and aerodynamic coefficients.
 - Atmospheric density variations with altitude.
@@ -43,19 +43,17 @@ The analysis incorporates:
 - Service and absolute ceilings.
 - Maximum range and endurance.
 
-The program performs calculations across a range of altitudes and airspeeds and generates plots to visualize the results.
+This program also runs calculations at different altitudes and airspeeds and creates plots to help show how aircraft performance changes under different flight conditions.
 
 ## Thrust, Drag, and Power Analysis
 
-The MATLAB program calculates thrust and power requirements for steady, level flight using aerodynamic drag relationships.
-
-For the jet aircraft, the analysis compares available thrust against required drag to determine feasible flight speeds at different altitudes.
+The MATLAB program calculates the thrust and power needed by the aircrafts to maintain steady, level flight based on aerodynamic drag. For the jet aircraft, it compares the available thrust with the thrust required to overcome drag to determine the range of possible flight speeds at different altitudes.
 
 ![Jet aircraft thrust and drag analysis](/airplane-jet-thrust.png)
 
 *Figure 1. Jet aircraft thrust and drag versus equivalent airspeed at selected altitudes.*
 
-For the propeller aircraft, the analysis evaluates power required and available across the flight-speed range.
+For the propeller aircraft, the analysis compares the power required for flight with the power available at different airspeeds.
 
 ![Propeller aircraft power analysis](/airplane-prop-power.png)
 
@@ -63,15 +61,13 @@ For the propeller aircraft, the analysis evaluates power required and available 
 
 ## Climb Performance and Maneuverability
 
-I calculated maximum rate of climb as a function of altitude using the excess power available for each aircraft configuration.
-
-The results demonstrate how increasing altitude influences the available climb performance.
+I calculated the maximum rate of climb at different altitudes for both aircrafts based on their excess power available. The results I obtained showed how the aircraft's ability to climb changes as altitude increases.
 
 ![Jet aircraft rate of climb](/airplane-jet-climb.png)
 
 *Figure 3. Calculated maximum rate of climb versus altitude for the jet aircraft.*
 
-The program generates simplified V–n diagrams at sea level, half the service ceiling, and the service ceiling. These diagrams combine stall boundaries with assumed load-factor limits of ±1.5 and the modeled maximum level-flight speed.
+The program also creates simplified V–n diagrams at sea level, half the service ceiling, and the service ceiling for both aircrafts. These diagrams generated by the program show the stall boundaries, the assumed load-factor limits of ±1.5, and the maximum level-flight speed calculated by the program.
 
 ![Propeller aircraft V-n diagram](/airplane-prop-vn.png)
 
@@ -79,15 +75,15 @@ The program generates simplified V–n diagrams at sea level, half the service c
 
 ## Range and Endurance Analysis
 
-The program estimates idealized cruise range and endurance using the specified drag polar, fuel-consumption parameters, and propulsion model. It numerically accounts for the reduction in aircraft weight as fuel is consumed.
+The program even estimates cruise range and endurance using the aircrafts' drag characteristics, fuel consumption, and propulsion model. It also accounts for the aircrafts becoming lighter as fuel is burned during the duration of their flight.
 
-Separate optimum lift coefficients are used for maximum range and maximum endurance for each propulsion type. These estimates exclude fuel reserves and fuel used during takeoff, climb, and descent.
+For both the jet and propeller aircraft, I used different optimum lift coefficients to calculate maximum range and endurance. These calculations do not include fuel reserves or the fuel used during takeoff, climb, and descent.
 
-The cruise integration does not enforce thrust or power feasibility at every weight step, so these results represent idealized estimates rather than verified mission capabilities.
+The program also does not check whether or not enough thrust or power is available at every step as the aircraft's weight decreases. And so, the results are ideal estimates rather than the actual range and endurance the aircraft could achieve during an actual complete flight.
 
 ## Calculated Performance Results
 
-The MATLAB program produced the following summary results:
+The MATLAB program produced the following summary results shown in the table below:
 
 | Parameter | Jet Aircraft | Propeller Aircraft |
 |---|---|---|
@@ -96,27 +92,27 @@ The MATLAB program produced the following summary results:
 | Stall Equivalent Airspeed | 102.53 kt | 50.03 kt |
 | Maximum True Airspeed | 580.22 kt | 154.94 kt |
 
-The service-ceiling calculations use a maximum climb-rate threshold of 500 ft/min for the jet and 100 ft/min for the propeller aircraft. Absolute ceiling corresponds to zero maximum excess-power climb rate.
+I calculated the service ceiling using a maximum climb rate of 500 ft/min for the jet aircraft and 100 ft/min for the propeller aircraft. The absolute ceiling is the altitude where the aircraft can no longer climb because there is no excess power available.
 
-The maximum true airspeed is the highest modeled level-flight speed found across the evaluated altitudes up to the calculated absolute ceiling.
+I also determined the maximum true airspeed by finding the highest level-flight speed calculated across all of the altitudes up to the absolute ceiling.
 
-The results demonstrate differences between jet and propeller aircraft performance under the specified aerodynamic and propulsion assumptions.
+Overall, the performance results show how jet and propeller aircraft perform differently based on their aerodynamic characteristics and propulsion models.
 
 ## Model Assumptions and Limitations
 
-The analysis uses a parabolic drag polar with fixed zero-lift drag coefficient, Oswald efficiency, and maximum lift coefficient. Atmospheric density varies with altitude, while available jet thrust and propeller power are assumed to scale with density ratio. Propeller efficiency and fuel-consumption parameters are held constant.
+The aircraft performance analysis used a simplified drag model with constant values for the zero-lift drag coefficient, Oswald efficiency, and maximum lift coefficient. Atmospheric density changes with altitude; and so I assumed that the available jet thrust and propeller power decrease as air density decreases. Propeller efficiency and fuel consumption parameters were also kept constant throughout the performance calculations.
 
-Compressibility effects, wave drag, and detailed engine operating limits are not modeled. In particular, the jet's predicted maximum speed of 580.22 kt should be interpreted as an output of this simplified model rather than a validated aircraft capability.
+The program does not account for the following parameters: compressibility effects, wave drag, or detailed engine operating limits. The jet's calculated maximum speed of 580.22 kt should be treated as a theoretical result from the model rather than a confirmed speed the aircraft could actually reach because of these assumptions.
 
-The results are theoretical predictions for the specified aircraft inputs and have not been validated against flight-test data.
+The results I obtained from the program provide estimates of aircraft performance based on the given inputs and assumptions. Since the calculations have not been compared with actual flight-test data, they should essentially be viewed as theoretical predictions rather than verified aircraft performance values.
 
 ## Engineering Takeaways
 
-This project strengthened my understanding of aircraft performance, aerodynamic modeling, propulsion effects, and the relationships between airspeed, altitude, and flight capabilities.
+This project helped me better my understanding of aircraft performance, aerodynamic modeling, and how different propulsion systems affect flight. It also gave me a clearer understanding of how airspeed and altitude influence an aircraft's overall performance.
 
-Developing the MATLAB program provided experience with numerical calculations, data organization, engineering analysis, and technical visualization.
+I gained more experience through the development of this program with numerical calculations, organizing data, analyzing engineering results, and creating plots to visualize aircraft performance.
 
-The project also demonstrated how a general computational framework can be used to evaluate different aircraft configurations and compare their operating characteristics.
+The project showed me how the same program can be used to analyze different types of aircraft and compare how they perform under different flight conditions.
 
 ---
 
