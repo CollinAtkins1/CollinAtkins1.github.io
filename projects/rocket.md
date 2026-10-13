@@ -12,9 +12,9 @@ title: NAR Level 1 Certification Rocket
 
 ## Project Overview
 
-I am currently working on designing and modeling my own high-power rocket as I prepare for my National Association of Rocketry (NAR) Level 1 (L1) certification. For this project, I am currently taking upon the following tasks: designing the rocket's geometry, analyzing its expected flight performance and stability, choosing materials for construction, and planning the recovery system before moving on to building and launching it.
+I am currently working on designing and modeling my own high-power rocket as I prepare for my National Association of Rocketry (NAR) Level 1 (L1) certification. For this project, My current work includes the following: designing the rocket's geometry, analyzing its expected flight performance and stability, choosing materials for construction, and planning the recovery system before moving on to building and launching it.
 
-My goal is to design, build, and successfully recover a rocket with no damages powered by an H-class motor. I want to apply what I've learned in engineering to a real rocket design through this project and gain hands-on experience taking it from the initial design stage all the way to launch and recovery.
+My goal is to design, build, and successfully recover an H-class-powered rocket without any damage. I want to apply what I've learned in engineering to a real rocket design through this project and gain hands-on experience taking it from the initial design stage all the way to launch and recovery.
 
 ## Rocket Design and Configuration
 
@@ -34,7 +34,7 @@ My most up-to-date preliminary design includes the following parameters:
 
 For the rocket's construction, I'm focused on being cost efficient while still selecting materials that can perform well. I plan to use cardboard for the body and motor tubes, plywood for the fins and centering rings, and a 3D-printed PLA nose cone.
 
-I chose cardboard tubes because they are affordable and easy to find, although their available sizes also influence the rocket's overall dimensions, such as outer and inner diameter, etc.. I decided to use plywood for the fins, centering rings, and bulkheads because I can cut and assemble the parts with tools I already have access to. I plan to create the design for the nose cone in SOLIDWORKS and then 3D print it using PLA. This will allow me to make a more complex shape without needing specialized manufacturing equipment.
+I chose cardboard tubes because they are affordable and easy to find, although their available sizes also influence the rocket's overall dimensions, including the outer and inner diameters of the body tube. I decided to use plywood for the fins, centering rings, and bulkheads because I can cut and assemble the parts with tools I already have access to. I plan to create the design for the nose cone in SOLIDWORKS and then 3D print it using PLA. This will allow me to make a more complex shape without needing specialized manufacturing equipment.
 
 ## Stability and Flight Performance
 
@@ -57,13 +57,13 @@ The table below shows the initial simulation results for my rocket using an H100
 
 *Figure 2. Preliminary altitude versus time simulation.*
 
-The simulation gave a static stability margin of 1.74 calibers at Mach 0.300. This suggests that the rocket should tend to return to its original flight direction after small disturbances at that point in the flight.
+The simulation gave a static stability margin of 1.74 calibers at Mach 0.300. This suggests that the rocket should tend to realign with the relative airflow after small angular disturbances at the evaluated condition.
 
 OpenRocket also gave me an initial idea of the path the rocket is expected to take and how the recovery system might perform. I plan to use these simulated results to make improvements to the design and help prepare for the actual launch.
 
 ## Recovery System
 
-For the recovery system, I plan to use a parachute attached to the rocket with shock cords. The parachute will deploy near the rocket's highest point using the motor's delayed ejection charge. This ejection charge will split the rocket at the coupler and allow the parachute to deploy and safely descend the rocket using the shock cords attached to the lower and upper body tube.
+For the recovery system, I plan to use a parachute attached to the rocket with shock cords. The parachute is intended to deploy near apogee using the motor's delayed ejection charge. This ejection charge will split the rocket at the coupler and allow the parachute to deploy and safely descend the rocket using the shock cords attached to the lower and upper body tube.
 
 Based on my initial OpenRocket simulation, the rocket is expected to be moving at approximately 7.14 ft/s when the parachute deploys and 13.3 ft/s when it lands. I will use these results to help evaluate and improve the recovery system as I continue working on the rocket design. Once the rocket is built, I will need to test the recovery system and compare the actual flight data with the simulation to see how well it performs and if any changes are needed.
 
