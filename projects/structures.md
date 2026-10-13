@@ -32,7 +32,7 @@ For the second part of the project, I compared the MATLAB results I obtained wit
 
 ## Part 1 — Computational Structural Analysis
 
-I organized my MATLAB code into separate functions to make it easier to adjust the beam's dimensions, material properties, length, and applied tip loads without having to rewrite the main program each time for each new case.
+I organized my MATLAB code into separate functions to make it easier to adjust the beam's dimensions, material properties, length, and applied tip loads without having to rewrite the main program for each new case.
 
 The program calculated the following parameters of the beam:
 
