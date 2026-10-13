@@ -8,6 +8,7 @@ title: Collin Atkins
 
 **Aerospace Engineering Senior · The University of Alabama**  
 **Expected Graduation: May 2027**
+**GPA: 3.73/4.00**
 
 <p>
   <a href="/Collin_Atkins_Resume.pdf" target="_blank" rel="noopener noreferrer">View Résumé (PDF)</a>
