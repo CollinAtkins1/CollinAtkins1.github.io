@@ -12,6 +12,12 @@ title: Glider Design and Flight Testing
 **Methods:** Design, fabrication, flight testing, and performance estimation  
 **Status:** Completed
 
+<p>
+  <a href="/glider-project.pdf" target="_blank" rel="noopener noreferrer">
+    View Team Project Presentation (PDF)
+  </a>
+</p>
+
 ## Project Overview
 
 I led a team of four engineering students in the designing, building, and testing of an unpowered glider for an aerospace engineering competition.
