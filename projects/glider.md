@@ -106,7 +106,7 @@ We were given a maximum budget of $50; however, our final documented cost was on
 
 This project gave me my first valuable hands-on aerospace engineering experience with designing and building an aircraft, choosing materials, conducting flight tests, and managing a project from start to finish.
 
-It also helped me helped me better understand how a glider's shape, center of gravity, and overall design affect the way it flies. Being able to see these concepts in action during testing made them easier to understand beyond just classroom calculations.
+It also helped me better understand how a glider's shape, center of gravity, and overall design affect the way it flies. Being able to see these concepts in action during testing made them easier to understand beyond just classroom calculations.
 
 Working with my teammates also taught me how to divide up technical responsibilities, stay within project constraints, and work together to turn an engineering design idea into something we could actually build and test.
 
