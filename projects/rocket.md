@@ -12,7 +12,7 @@ title: NAR Level 1 Certification Rocket
 
 ## Project Overview
 
-I am currently working on designing and modeling my own high-power rocket as I prepare for my National Association of Rocketry (NAR) Level 1 (L1) certification. For this project, My current work includes the following: designing the rocket's geometry, analyzing its expected flight performance and stability, choosing materials for construction, and planning the recovery system before moving on to building and launching it.
+I am currently working on designing and modeling my own high-power rocket as I prepare for my National Association of Rocketry (NAR) Level 1 (L1) certification. For this project, my current work includes the following: designing the rocket's geometry, analyzing its expected flight performance and stability, choosing materials for construction, and planning the recovery system before moving on to building and launching it.
 
 My goal is to design, build, and successfully recover an H-class-powered rocket without any damage. I want to apply what I've learned in engineering to a real rocket design through this project and gain hands-on experience taking it from the initial design stage all the way to launch and recovery.
 
