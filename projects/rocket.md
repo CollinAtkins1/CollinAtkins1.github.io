@@ -5,11 +5,10 @@ title: NAR Level 1 Certification Rocket
 
 # NAR Level 1 Certification Rocket
 
-**Independent Engineering Project | September 2026 – Present**
+**Independent Engineering Project · September 2026–Present**
 
-**Tools:** OpenRocket, SOLIDWORKS
-
-**Status:** Design and Simulation in Progress
+**Tools:** OpenRocket; SOLIDWORKS planned for nose-cone design  
+**Status:** Preliminary design and simulation; construction and certification flight pending
 
 ## Project Overview
 
@@ -33,15 +32,15 @@ The preliminary design includes:
 - **Estimated mass with motor:** 30.1 oz
 - **Recovery system:** Parachute with shock cords
 
-The planned construction uses cardboard for the body and motor tubes, plywood for structural components, and a 3D-printed PLA nose cone designed using SOLIDWORKS.
+The planned construction uses cardboard body and motor tubes, plywood fins and centering rings, and a 3D-printed PLA nose cone.
 
-These materials were selected based on cost, availability, manufacturability, and the requirements of the rocket design.
+I selected cardboard tubes based on cost and availability, with their available dimensions setting constraints on the rocket's geometry. Plywood provides a material I can cut and assemble using accessible tools. I plan to model the nose cone in SOLIDWORKS and use 3D printing to produce its more complex shape.
 
 ## Stability and Flight Performance
 
 I used OpenRocket to simulate the rocket's preliminary flight trajectory and evaluate its stability, maximum altitude, velocity, and recovery performance.
 
-The preliminary simulation produced the following results:
+The preliminary OpenRocket predictions for the modeled H100W configuration are shown in the table below. They have not yet been verified through flight testing.
 
 | Parameter | Predicted Value |
 |---|---|
@@ -64,11 +63,15 @@ The simulation also provides preliminary predictions of the rocket's flight traj
 
 ## Recovery System
 
-The rocket will incorporate a parachute recovery system connected through shock cords. The parachute is intended to deploy near apogee using the motor's ejection charge after the programmed delay.
+The planned recovery system uses a parachute connected through shock cords, with deployment near apogee initiated by the motor's delayed ejection charge.
 
-The preliminary simulation predicts a deployment velocity of 7.14 ft/s and a landing velocity of 13.3 ft/s.
+The preliminary simulation predicts a deployment speed of 7.14 ft/s and a landing speed of 13.3 ft/s. I will use these predictions to assess recovery performance as the design develops. Recovery-system testing and flight data will be needed to evaluate the completed hardware.
 
-These predictions will help evaluate the recovery system before the certification flight.
+## Model Assumptions and Limitations
+
+These results describe the current OpenRocket model. Actual performance will depend on the completed rocket's mass, center of gravity, construction details, and launch conditions.
+
+Before flight, I plan to update the model using measured mass and center-of-gravity data. The reported static stability margin applies to the evaluated condition and does not by itself establish stability throughout flight.
 
 ## Next Steps
 
