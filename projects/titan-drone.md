@@ -2,6 +2,7 @@
 layout: default
 title: Titan Sea Drone - Stability and Control
 ---
+# Titan Sea Drone — Stability and Control
 
 **Senior Design Project · The University of Alabama · August 2026–Present**
 
@@ -27,7 +28,7 @@ I am currently serving as the Stability and Control Lead for my senior aerospace
 
 For our senior design project, my team is designing a VTOL drone that can fly through Titan's dense atmosphere, land on its hydrocarbon seas, and collect liquid samples for scientific research via a vacuum mechanism.
 
-Our design uses battery-powered flight, with a radioisotope thermoelectric generator (RTG) to slowly recharge the batteries between flights during the night on Titan. One of our initial design goals is for the drone to be able to travel at least 10 kilometers on a single battery charge before landing on a hydrocarbon sea.
+Our design uses battery-powered flight, with a radioisotope thermoelectric generator (RTG) to slowly recharge the batteries between flights during nighttime. One of our initial design goals is for the drone to be able to travel at least 10 kilometers on a single battery charge before landing on a hydrocarbon sea.
 
 My main responsibility in this project is to focus on the drone's stability and control development. This includes developing an approach to its flight dynamics and control systems to help make sure the vehicle can fly, maneuver, and operate safely throughout the mission.
 
@@ -70,7 +71,7 @@ I also conducted a qualitative trade study on two possible control methods: prop
 |---|---|---|
 | Development | Incremental feedback-loop tuning | State-feedback gain design |
 | Coupled Motion | Evaluate interactions between loops | Represent coupling in a state-space model |
-| Motor Limits | Saturation and anti-windup considerations | Saturation and control-effort considerations |
+| Motor Limits | Saturation and anti-windup considerations | Check actuator saturation; control-effort penalties do not enforce hard limits |
 
 I proposed starting with PID control for the hover model, primarily because it allows me to adjust and tune the feedback loops one at a time. I plan to keep LQR as an alternative option to explore as the design progresses.
 
@@ -89,7 +90,7 @@ Key design considerations include the following parameters:
 - Descent-rate and attitude constraints during sea landing.
 - Integration with propulsion, structures, and electronics subsystems.
 
-As the other teams leads obtain and provide more information concerning their subsystems, I will use the initial analysis to help me make decisions about the stability and control design and configuration for the drone.
+As the other subsystem leads obtain and provide more information concerning their subsystems, I will use the initial analysis to help me make decisions about the stability and control design and configuration for the drone.
 
 ## Risk Management and Verification
 
@@ -108,7 +109,7 @@ The planned verification process includes the following listed steps:
 5. Restrained and low-altitude hover testing.
 6. Flight testing of an Earth-based demonstrator.
 
-I plan to keep separate sets of operating parameters for Earth and Titan, mainly since testing the drone on Earth won't fully show how it would perform in Titan's different atmospheric conditions and vice versa.
+I plan to maintain separate sets of operating parameters for Earth and Titan. Earth-based testing will help evaluate the control-system implementation; however, it cannot directly validate performance under Titan’s operating conditions.
 
 ## Project Timeline and Milestones
 
@@ -124,7 +125,7 @@ I am mainly focused on defining the stability and control requirements, building
 
 ### Spring 2027 — Development and Testing
 
-On the other hand, I plan to improve the flight-dynamics and control models as our design becomes more developed during the spring semester. I will also work with the other teams to integrate the major subsystems and help carry out ground and flight tests in stages to evaluate the drone's stability and control performance.
+Later on, I plan to improve the flight-dynamics and control models as our design becomes more developed during the spring semester. I will also work with the other teams to integrate the major subsystems and help carry out ground and flight tests in stages to evaluate the drone's stability and control performance.
 
 ![Spring Stability and Control Gantt Chart](/spring-gantt.png)
 
